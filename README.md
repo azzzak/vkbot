@@ -52,7 +52,7 @@ func main() {
 	for update := range updates {
 		switch update.Type {
 		case vkbot.IncomingMessage:
-      bot.Send(update.Payload.UserID, update.Payload.Body)
+      			bot.Send(update.Payload.UserID, update.Payload.Body)
 		}
 	}
 }
