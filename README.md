@@ -1,4 +1,4 @@
-# Бот для сообществ VK
+# vkbot
 ## Установка и обновление
 `go get -u github.com/azzzak/vkbot`
 ## Запуск
